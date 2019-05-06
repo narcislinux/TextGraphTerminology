@@ -1,15 +1,15 @@
-##Text Graph Terminology
+## Text Graph Terminology
 
-###Uniform Resource Identifier (URI)
+### Uniform Resource Identifier (URI)
 
           userinfo     host        port
           ┌─┴────┐ ┌────┴────────┐ ┌┴┐
-  https://user@www.example.com:123/forum/questions/?tag=networking&order=newest#top
-  └─┬─┘ └───────┬────────────────────┘└─┬─────────────┘└──┬───────────────────────┘└┬─┘
-  scheme     authority                 path              query                 fragment
+          https://user@www.example.com:123/forum/questions/?tag=networking&order=newest#top
+          └─┬─┘ └───────┬────────────────────┘└─┬─────────────┘└──┬───────────────────────┘└┬─┘
+          scheme     authority                 path              query                 fragment
 
 
-###libvirt Terminology and goals
+### libvirt Terminology and goals
 
 		 ________________
 		|  ________      |      ___________________________________
