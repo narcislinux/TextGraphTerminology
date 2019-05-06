@@ -58,3 +58,20 @@
 		| |_Hypervisor_|-|---> |an hypervisor is a layer of software allowing to virtualize|
 		|________________|     |a node in a set of virtual machines with possibly different|
                                    | configurations than the node itself.______________________|
+                                   
+### OpenStack instalation
+
+         --------------
+        |              |
+        |  OpenStack   |
+        |              |
+         ---|------|--- ---> Nat Network (10.0.0.3.11) 10.0.3.0/24  
+                ---------------> Host only (192.168.56.11) 192.168.56.0/24
+        |              |
+        |    VBOX      |
+        |              |
+         --------------
+        |              |
+        |     HW       |
+        |              |
+         --------------
