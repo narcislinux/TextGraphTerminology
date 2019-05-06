@@ -2,6 +2,7 @@
 
 ### Uniform Resource Identifier (URI)
 
+
           userinfo     host        port
           ┌─┴────┐ ┌────┴────────┐ ┌┴┐
           https://user@www.example.com:123/forum/questions/?tag=networking&order=newest#top
