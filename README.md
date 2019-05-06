@@ -22,4 +22,4 @@
 		|  ____________  |      ___________________________________________________________
 		| |_Hypervisor_|-|---> |an hypervisor is a layer of software allowing to virtualize|
 		|________________|     |a node in a set of virtual machines with possibly different|
-							   | configurations than the node itself.______________________|
+                               | configurations than the node itself.______________________|
