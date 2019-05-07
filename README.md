@@ -78,7 +78,10 @@
          
 ### /proc
 
-    ______________ ______________________________________ ___________________
-   |/proc/zoneinfo| Non-uniform memory access (NUMA)     |numactl --hardware |
-   |              | OR Non-Uniform Memory Architecture   |numastat           |
-   |______________|______________________________________|___________________|
+        ________________ ______________________________________ ___________________
+       |/proc/zoneinfo  | Non-uniform memory access (NUMA)     |numactl --hardware |
+       |                | OR Non-Uniform Memory Architecture   |numastat           |
+       |________________|______________________________________|___________________|
+       
+
+###
