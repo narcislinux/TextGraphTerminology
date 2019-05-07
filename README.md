@@ -78,14 +78,14 @@
 
 ### Non-uniform memory access (NUMA)
        
-       +uniform memory access
-
+       -uniform memory access------------------------------------------------
+       
        |||||||||||||||||||||||||||||||||||||||||||||||||||||| ---> memory-bus
         ___|__         ___|__         ___|__         ___|__   
        |_cpu0_|       |_cpu1_|       |_cpu2_|       |_cpu3_|     
 
 
-       +Non-uniform memory access 
+       -Non-uniform memory access-------------------------------------------- 
 
        [Local-Memory] ---|_cpu0_|-------|_cpu1_|--- [Local-Memory]
                             |              |
