@@ -75,12 +75,29 @@
         |     HW       |
         |              |
          --------------
-         
+
+### Non-uniform memory access (NUMA)
+       
+       +uniform memory access
+
+       |||||||||||||||||||||||||||||||||||||||||||||||||||||| ---> memory-bus
+        ___|__         ___|__         ___|__         ___|__   
+       |_cpu0_|       |_cpu1_|       |_cpu2_|       |_cpu3_|     
+
+
+       +Non-uniform memory access 
+
+       [Local-Memory] ---|_cpu0_|-------|_cpu1_|--- [Local-Memory]
+                            |              |
+       [Local-Memory] ---|_cpu0_|-------|_cpu0_|--- [Local-Memory]
+
+      
+
 ### /proc
 
-        ________________ ______________________________________ ___________________
-       |/proc/zoneinfo  | Non-uniform memory access (NUMA)     |numactl --hardware |
-       |                | OR Non-Uniform Memory Architecture   |numastat           |
+        ________________ ______________________________________ ___________________ 
+       |/proc/zoneinfo  | Non-uniform memory access (NUMA)     |numactl --hardware | 
+       |                | OR Non-Uniform Memory Architecture   |numastat           | 
        |________________|______________________________________|___________________|
        
 
