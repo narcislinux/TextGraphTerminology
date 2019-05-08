@@ -101,4 +101,12 @@
        |________________|______________________________________|___________________|
        
 
-###
+### libvirt
+
+                     _______________           
+                    |virConnectPtr--|------> _represents the connection to a hypervisor_
+                            |                  _virConnectPtr	virConnectOpenAuth	(const char * name,_
+                                                                                     _virConnectAuthPtr auth,_
+                                                                                     _unsigned int flags)_
+                            |                 
+                            |
