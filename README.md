@@ -105,7 +105,7 @@
 
                      _______________          __________________________________________________________________ 
                     |virConnectPtr--|------> |represents the connection to a hypervisor                         |
-                            |                | virConnectPtr	virConnectOpenAuth	(const char * name,         |
+                            |                | virConnectPtr   virConnectOpenAuth	(const char * name,         |
                             |                |                                       virConnectAuthPtr auth,    |
                             |                |_______________________________________unsigned int flags)________|
                             |                 
